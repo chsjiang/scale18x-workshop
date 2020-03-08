@@ -195,7 +195,7 @@ Press the buttons and create your melody.
 Run the code.
 
 ```
-tinygo flash -target pybadge ./snake/main.go
+tinygo flash -target pybadge ./snake
 ```
 
 Play the famous Snake game on the pybadge.
@@ -207,7 +207,7 @@ Play the famous Snake game on the pybadge.
 Run the code.
 
 ```
-tinygo flash -target pybadge ./mynameis/main.go
+tinygo flash -target pybadge ./mynameis
 ```
 
 Configure your name and use the awesome TinyGo-powered badge!
