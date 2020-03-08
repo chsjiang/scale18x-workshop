@@ -12,7 +12,7 @@ The DJI Tello from Ryze Robotics uses a WiFi interface with a UDP-based API.
 ## Installation
 
 ```
-go get -d -u gobot.io/x/gobot/...
+go get -d -u gobot.io/x/gobot
 ```
 
 ## Running the code

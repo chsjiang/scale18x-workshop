@@ -3,7 +3,7 @@
 ## What you need
 
     - Adafruit's PyBadge
-    - Personal computer with Go 1.13+ and TinyGo installed, and a serial port.
+    - Personal computer with Go 1.13 and TinyGo installed, and a serial port.
 
 ## Installation
 
@@ -32,47 +32,6 @@ go get -u tinygo.org/x/drivers
 go get -u tinygo.org/x/tinydraw
 go get -u tinygo.org/x/tinyfont
 ```
-
-### Bossa
-
-In order to "flash", meaning to move the binary code from your computer to the PyBadge, you must install the "bossac" command line utility which is part of BOSSA.
-
-#### Linux
-
-On Linux, install from source:
-
-```
-sudo apt install \
-  libwxgtk3.0-dev \
-  libreadline-dev
-git clone https://github.com/shumatech/BOSSA.git
-cd BOSSA
-make
-```
-
-#### macOS
-
-On macOS, you can install it via `brew cask install bossa` or download the installer from https://github.com/shumatech/BOSSA/releases/download/1.9.1/bossa-1.9.1.dmg
-
-One you have downloaded it, double click on the .dmg file to perform the installation.
-
-#### Windows
-
-- You must install the "BOSSA" flashing utility first. You can download it from https://github.com/shumatech/BOSSA/releases/download/1.9.1/bossa-x64-1.9.1.msi
-
-- During the installation, you should choose to put it into `c:\Program Files`. NOTE: this is not the default, you will have to change the value during the install process.
-
-- After the installation, you must add it to your PATH:
-
-    ```shell
-    set PATH=%PATH%;"c:\Program Files\BOSSA";
-    ```
-
-- Test that you have installed "BOSSA" correctly by running this command:
-
-    ```shell
-    bossac --help
-    ```
 
 ## Connecting the PyBadge to your computer
 

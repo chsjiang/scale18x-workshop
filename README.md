@@ -2,7 +2,9 @@
 
 The is the repository for the hardware hack session at SCaLE 18x.
 
-Post your awesome pictures and videos using these hashtags:
+http://www.socallinuxexpo.org/scale/18x
+
+Please post your awesome pictures and videos using these hashtags:
 
 #tinygo #scale18x #golang #adafruit
 
